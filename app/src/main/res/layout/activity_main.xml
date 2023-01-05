@@ -5,12 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:layout_gravity="center">
+    android:gravity="center">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:fontFamily="sans-serif-light"
             android:text="BMI"
             android:textAlignment="center"
@@ -22,7 +21,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:gravity="center"
             android:text="Calculator"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -35,7 +33,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_marginTop="30dp"
-            android:gravity="center"
             android:hint="Enter your Weight (in Kg)"
             android:inputType="numberDecimal"
             android:textSize="24sp" />
@@ -46,7 +43,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_marginTop="5dp"
-            android:gravity="center"
             android:hint="Enter your Height (in m)"
             android:importantForAutofill="no"
             android:inputType="numberDecimal"
@@ -54,27 +50,27 @@
 
         <Button
             android:id="@+id/calcBMI"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:gravity="center"
+            android:layout_marginTop="30dp"
             android:text="Calculate"
             android:onClick="alertx"
             android:textAlignment="center"/>
 
-        <TextView
-            android:id="@+id/output"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textAlignment="center"
-            android:textSize="30sp" />
-        <TextView
-            android:id="@+id/output2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textAlignment="center"
-            android:textSize="40sp" />
+<!--        <TextView-->
+<!--            android:id="@+id/output"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="30sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/output2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="40sp" />-->
 
 </LinearLayout>
